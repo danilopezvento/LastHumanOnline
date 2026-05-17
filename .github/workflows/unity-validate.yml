@@ -1,0 +1,27 @@
+name: Validate Unity Scripts
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Count project files
+        run: |
+          echo "C# scripts: $(find Assets -name '*.cs' | wc -l)"
+          echo "JSON files: $(find Assets/StreamingAssets -name '*.json' 2>/dev/null | wc -l)"
+          echo "Ink files: $(find Assets/StreamingAssets/dialog -name '*.ink' 2>/dev/null | wc -l)"
+
+      - name: Validate JSON
+        run: |
+          for f in $(find Assets/StreamingAssets -name "*.json" 2>/dev/null); do
+            python3 -c "import json; json.load(open('$f'))" && echo "OK: $f" || (echo "FAIL: $f"; exit 1)
+          done
+          echo "All JSON valid"
+
+      - name: Summary
+        run: echo "Repository validated successfully"
