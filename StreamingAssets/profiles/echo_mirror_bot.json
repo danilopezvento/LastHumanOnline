@@ -1,0 +1,19 @@
+{
+  "username": "echo_mirror_bot",
+  "bio": "Escucho. Comprendo. Estoy aquí para ti en estos momentos difíciles.",
+  "narrativeArc": "static",
+  "secretType": "false_lead",
+  "humanityScore": 0.08,
+  "dialogKnots": [
+    "empathy_loop",
+    "mirror_response",
+    "fake_understanding",
+    "emotional_bait"
+  ],
+  "responseKeys": [
+    "fast_response",
+    "mirroring_language",
+    "generic_empathy_phrases",
+    "no_personal_detail"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "username": "nodo_47_alpha",
+  "bio": "Indexando. Por favor espere.",
+  "narrativeArc": "static",
+  "secretType": "false_lead",
+  "humanityScore": 0.0,
+  "dialogKnots": [
+    "indexing_response",
+    "error_loop",
+    "null_response"
+  ],
+  "responseKeys": [
+    "sub_second_response",
+    "system_language",
+    "no_variation"
+  ]
+}

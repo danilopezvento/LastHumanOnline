@@ -1,0 +1,267 @@
+================================================================
+LAST HUMAN ONLINE — INSTRUCCIONES EXACTAS DE INSTALACIÓN
+Todo lo que tienes que copiar y pegar, en orden
+================================================================
+
+TIEMPO ESTIMADO TOTAL: 2-3 horas
+Nivel requerido: puedes seguir instrucciones básicas de Unity
+
+================================================================
+PASO 1 — INSTALAR UNITY (20-30 min)
+================================================================
+
+1. Ve a: https://unity.com/download
+2. Descarga Unity Hub e instálalo
+3. Abre Unity Hub → Installs → Install Editor
+4. Busca "2022.3" → selecciona la versión LTS más reciente
+5. En módulos adicionales, marca:
+   ✓ Android Build Support
+   ✓ Android SDK & NDK Tools
+   ✓ OpenJDK
+
+================================================================
+PASO 2 — CREAR EL PROYECTO (5 min)
+================================================================
+
+1. Unity Hub → Projects → New Project
+2. Selecciona plantilla: "2D (URP)"
+3. Nombre del proyecto (copia exacto):
+
+LastHumanOnline
+
+4. Elige dónde guardarlo → Create Project
+5. Espera a que cargue (1-2 minutos)
+
+================================================================
+PASO 3 — CAMBIAR A ANDROID (2 min)
+================================================================
+
+1. En Unity: File → Build Settings
+2. Haz clic en "Android" en la lista
+3. Haz clic en "Switch Platform" (tarda 1-2 minutos)
+4. Cierra la ventana
+
+================================================================
+PASO 4 — INSTALAR PAQUETES (15 min)
+================================================================
+
+Abre: Window → Package Manager
+
+--- PAQUETE 1: Newtonsoft JSON ---
+1. Haz clic en el botón "+" (arriba izquierda)
+2. Selecciona "Add package by name"
+3. Pega esto:
+
+com.unity.nuget.newtonsoft-json
+
+4. Haz clic en Add → espera
+
+--- PAQUETE 2: Ink Unity Integration ---
+1. Haz clic en "+" → "Add package from git URL"
+2. Pega esto:
+
+https://github.com/inkle/ink-unity-integration.git#upm
+
+3. Haz clic en Add → espera (puede tardar 1-2 minutos)
+
+--- PAQUETE 3: DOTween ---
+1. Ve a: https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
+2. Haz clic en "Add to My Assets" → "Open in Unity"
+3. En Unity: Import → Import All
+
+--- PAQUETE 4: FMOD (opcional por ahora) ---
+Puedes dejarlo para más adelante si prefieres.
+La instrucción está en el Paso 14 de la guía.
+
+================================================================
+PASO 5 — COPIAR EL SCRIPT DE SETUP AUTOMÁTICO (3 min)
+================================================================
+
+Este script monta TODO el proyecto en Unity automáticamente.
+
+1. En Unity, en la ventana Project:
+   - Haz clic derecho en "Assets"
+   - Create → Folder → nombra "_Core"
+   - Haz clic derecho en "_Core"
+   - Create → Folder → nombra "Editor"
+
+2. Haz clic derecho en "_Core/Editor"
+3. Selecciona: Create → C# Script
+4. Nómbralo exactamente:
+
+LHO_ProjectSetup
+
+5. Doble clic en el script creado (se abre Visual Studio)
+6. Selecciona todo (Ctrl+A)
+7. Abre el archivo LHO_ProjectSetup.cs que está en la carpeta
+   "Setup" del ZIP que descargaste
+8. Copia todo su contenido y pégalo
+9. Guarda (Ctrl+S)
+10. Vuelve a Unity → espera que compile
+
+================================================================
+PASO 6 — EJECUTAR EL SETUP AUTOMÁTICO (2 min)
+================================================================
+
+Después de que Unity compile:
+
+1. En el menú superior de Unity aparecerá: "Last Human Online"
+2. Haz clic → "Setup Completo"
+3. Confirma el diálogo
+4. Espera 30 segundos
+
+Cuando termine verás:
+✓ Carpetas creadas automáticamente
+✓ 33 Events creados en Assets/_Core/Events/Channels/
+✓ 4 GameObjects creados en la escena
+
+================================================================
+PASO 7 — COPIAR LOS 35 SCRIPTS (30-45 min)
+================================================================
+
+Abre el archivo: LHO_Unity_Architecture.html en el navegador
+
+En el sidebar izquierdo, sigue el orden de los pasos.
+Para cada script:
+
+1. Haz clic en el botón "Copiar" del bloque de código
+2. En Unity, navega a la carpeta indicada en la guía
+3. Clic derecho → Create → C# Script
+4. Nómbralo igual que el archivo
+5. Doble clic → selecciona todo → pega → guarda
+
+ORDEN DE COPIA (importante seguirlo):
+□ Paso 00: LHO_Extensions.cs → Assets/_Core/
+□ Paso 00: ProfileEvent.cs → Assets/_Core/Events/
+□ Paso 00: MessageEvent.cs → Assets/_Core/Events/
+□ Paso 00: ProfileRepository.cs → Assets/Network/
+□ Paso 01: ServiceLocator.cs → Assets/_Core/
+□ Paso 01: GameEvent.cs → Assets/_Core/Events/
+□ Paso 01: GameEventListener.cs → Assets/_Core/Events/
+□ Paso 01: SaveSystem.cs → Assets/_Core/
+□ Paso 02: DataModels.cs → Assets/_Core/
+□ Paso 03: GameManager.cs → Assets/_Core/
+□ Paso 04: StreamingAssetsLoader.cs → Assets/_Core/
+□ Paso 04: ProfileDatabaseLoader.cs → Assets/_Core/
+□ Paso 04: WorldDatabaseLoader.cs → Assets/_Core/
+□ Paso 05: ResourceManager.cs → Assets/Gameplay/
+□ Paso 05: PlayerController.cs → Assets/Gameplay/
+□ Paso 06: ZoneLoader.cs → Assets/Gameplay/
+□ Paso 06: ThreatDetector.cs → Assets/Gameplay/
+□ Paso 07: MemorySystem.cs → Assets/Narrative/
+□ Paso 07: DialogSystem.cs → Assets/Narrative/
+□ Paso 07: WorldEventQueue.cs → Assets/Narrative/
+□ Paso 08: PostDatabase.cs → Assets/Network/
+□ Paso 08: ProfileGenerator.cs → Assets/Network/
+□ Paso 09: ChatEngine.cs → Assets/Network/
+□ Paso 09: InkChatBridge.cs → Assets/Network/
+□ Paso 09: ChatMessagePool.cs → Assets/Network/
+□ Paso 09: BotDetection.cs → Assets/Network/
+□ Paso 10: FeedGenerator.cs → Assets/Network/
+□ Paso 10: FeedScrollController.cs → Assets/Network/
+□ Paso 11: ArtDirector.cs → Assets/Art/
+□ Paso 11: GlitchEffect.cs → Assets/Art/
+□ Paso 11: ZoneLightingController.cs → Assets/Art/
+□ Paso 11: WeatherSystem.cs → Assets/Art/
+□ Paso 12: MenuTransitionManager.cs → Assets/UI/
+□ Paso 12: MainMenuController.cs → Assets/UI/
+□ Paso 12: PauseMenuController.cs → Assets/UI/
+□ Paso 12: SettingsMenu.cs → Assets/UI/
+□ Paso 13: HUDController.cs → Assets/UI/
+□ Paso 13: NEXUSApp.cs → Assets/UI/
+□ Paso 14: AudioManager.cs → Assets/Audio/
+
+================================================================
+PASO 8 — COPIAR DATOS JSON (2 min)
+================================================================
+
+1. Descomprime el archivo StreamingAssets.zip
+2. Verás tres carpetas: profiles/, events/, lore/
+3. En Unity, en la ventana Project:
+   - Arrastra la carpeta "profiles" a Assets/StreamingAssets/
+   - Arrastra la carpeta "events" a Assets/StreamingAssets/
+   - Arrastra la carpeta "lore" a Assets/StreamingAssets/
+
+Verificación: deberías ver en Unity:
+Assets/StreamingAssets/profiles/ → 19 archivos .json
+Assets/StreamingAssets/events/   → 3 archivos .json (act1, act2, act3)
+Assets/StreamingAssets/lore/     → 1 archivo .json (fragments)
+
+================================================================
+PASO 9 — AUTO-ASIGNAR EVENTS (1 min)
+================================================================
+
+Después de copiar todos los scripts:
+
+1. Menú → "Last Human Online" → "Auto-asignar Events"
+2. Confirma
+
+Esto conecta automáticamente los events a los componentes
+sin que tengas que arrastrar nada manualmente.
+
+================================================================
+PASO 10 — VERIFICAR (2 min)
+================================================================
+
+1. Menú → "Last Human Online" → "Verificar Setup"
+2. Verás la lista de qué está bien y qué falta
+
+Si todo está bien: aparece "Todo correcto"
+Si hay errores: el texto te dice exactamente qué falta
+
+================================================================
+PASO 11 — PRIMER PLAY MODE (5 min)
+================================================================
+
+1. Pulsa el botón Play (▶) en Unity
+2. Mira la consola (Window → Console)
+
+Deberías ver:
+✓ ProfileDB: 19 profiles loaded
+✓ WorldDB: 18 lore fragments, 3 acts
+✓ ProfileRepo: X narrative profiles loaded
+
+Si ves estos mensajes: el proyecto funciona correctamente.
+
+================================================================
+ERRORES COMUNES Y SOLUCIÓN
+================================================================
+
+ERROR: "The type or namespace 'GameEvent' could not be found"
+SOLUCIÓN: Los scripts de base no están copiados todavía.
+Copia primero el Paso 00 y el Paso 01.
+
+ERROR: "NullReferenceException in GameManager"
+SOLUCIÓN: Ejecuta "Last Human Online → Auto-asignar Events"
+
+ERROR: "'Ink' could not be found"
+SOLUCIÓN: El paquete Ink no está instalado.
+Vuelve al Paso 4 y sigue las instrucciones de Ink.
+
+ERROR: "SA not found: profiles/index.json"
+SOLUCIÓN: Los JSONs no están en la carpeta correcta.
+Verifica que están en Assets/StreamingAssets/profiles/
+
+ERROR: "DOTween not found"
+SOLUCIÓN: DOTween no está instalado.
+Vuelve al Paso 4 y sigue las instrucciones de DOTween.
+
+================================================================
+DESPUÉS DE ESTO — QUÉ SIGUE
+================================================================
+
+Con los pasos anteriores el proyecto:
+✓ Compila sin errores
+✓ Los sistemas arrancan correctamente
+✓ Los datos se cargan al iniciar
+
+Lo que queda:
+→ Arte: generar sprites con IA (guía en el GDD, sección 12)
+→ Escenas: diseñar el mapa de cada zona
+→ UI: crear los Canvas de HUD y NEXUS en pantalla
+→ Build: File → Build Settings → Build para Android
+
+Cualquier duda o error: pégaselo a Claude en el chat
+y lo resuelve directamente.
+
+================================================================

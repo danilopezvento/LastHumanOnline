@@ -1,0 +1,20 @@
+{
+  "username": "tomas_el_viejo",
+  "bio": "73 años. No sé muy bien cómo funciona esto. Mi nieto me enseñó antes de... bueno. ¿Hay alguien?",
+  "narrativeArc": "evolving",
+  "secretType": "lore",
+  "humanityScore": 0.97,
+  "dialogKnots": [
+    "confused_intro",
+    "grandson_memory",
+    "survival_story",
+    "wisdom_share",
+    "key_lore"
+  ],
+  "responseKeys": [
+    "very_slow_response",
+    "formal_old_spanish",
+    "confused_tech",
+    "deeply_emotional"
+  ]
+}

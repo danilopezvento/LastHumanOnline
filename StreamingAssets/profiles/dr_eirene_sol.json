@@ -1,0 +1,20 @@
+{
+  "username": "dr_eirene_sol",
+  "bio": "Investigadora. Estuve en el centro cuando empezó. Sé lo que pasó. Pero necesito saber si puedo fiarme de ti antes de contártelo.",
+  "narrativeArc": "deceptive",
+  "secretType": "lore",
+  "humanityScore": 0.42,
+  "dialogKnots": [
+    "scientist_intro",
+    "verification_demand",
+    "partial_lore",
+    "emotional_slip",
+    "key_revelation_or_trap"
+  ],
+  "responseKeys": [
+    "strategic_delay",
+    "technical_vocabulary",
+    "emotional_when_convenient",
+    "planted_doubt"
+  ]
+}

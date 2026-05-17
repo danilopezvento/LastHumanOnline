@@ -1,0 +1,13 @@
+{
+  "username": "_player_reference",
+  "bio": "INTERNAL — no mostrar en feeds. Referencia del perfil del jugador para NG+.",
+  "narrativeArc": "static",
+  "secretType": "lore",
+  "humanityScore": -1,
+  "dialogKnots": [
+    "ng_plus_reveal"
+  ],
+  "responseKeys": [
+    "player_is_bot_reveal"
+  ]
+}

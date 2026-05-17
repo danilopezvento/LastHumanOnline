@@ -1,0 +1,20 @@
+{
+  "username": "rosa_m_real",
+  "bio": "Sigo aquí. No sé por cuánto tiempo más. Por favor no me preguntes dónde estoy todavía.",
+  "narrativeArc": "deceptive",
+  "secretType": "false_lead",
+  "humanityScore": 0.48,
+  "dialogKnots": [
+    "afraid_intro",
+    "sister_reference_test",
+    "false_memory",
+    "trap_coord",
+    "too_perfect"
+  ],
+  "responseKeys": [
+    "calculated_delay",
+    "deliberate_typo",
+    "emotional_bait",
+    "references_luca"
+  ]
+}

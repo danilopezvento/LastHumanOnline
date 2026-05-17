@@ -1,0 +1,20 @@
+{
+  "username": "petra_signal",
+  "bio": "Tengo un generador. Señal estable en este punto. Comparto coordenadas solo si compruebo que eres humano primero. Las IAs ya me han engañado dos veces.",
+  "narrativeArc": "evolving",
+  "secretType": "coord",
+  "humanityScore": 0.81,
+  "dialogKnots": [
+    "suspicious_intro",
+    "verification_test",
+    "generator_info",
+    "previous_betrayal",
+    "coord_reveal"
+  ],
+  "responseKeys": [
+    "moderate_delay",
+    "paranoid_tone",
+    "asks_questions",
+    "emotional_trust_issue"
+  ]
+}

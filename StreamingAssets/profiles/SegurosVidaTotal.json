@@ -1,0 +1,19 @@
+{
+  "username": "SegurosVidaTotal",
+  "bio": "Tu seguro de vida te protege cuando más lo necesitas. Renueva ahora y obtén un 15% de descuento. Atención al cliente disponible.",
+  "narrativeArc": "static",
+  "secretType": "false_lead",
+  "humanityScore": 0.01,
+  "dialogKnots": [
+    "insurance_pitch",
+    "discount_offer",
+    "urgency_fake",
+    "contact_redirect"
+  ],
+  "responseKeys": [
+    "instant_response",
+    "sales_language",
+    "urgency_manufactured",
+    "no_context_awareness"
+  ]
+}

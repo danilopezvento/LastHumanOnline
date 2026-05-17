@@ -1,0 +1,20 @@
+{
+  "username": "voz_en_la_radio",
+  "bio": "Este perfil se creó automáticamente desde una transmisión de radio. Frecuencia 103.7 FM.",
+  "narrativeArc": "evolving",
+  "secretType": "coord",
+  "humanityScore": 0.61,
+  "dialogKnots": [
+    "radio_origin",
+    "static_interruptions",
+    "location_fragments",
+    "someone_else_voice",
+    "final_coord"
+  ],
+  "responseKeys": [
+    "irregular_delay",
+    "fragmented_text",
+    "signal_metaphors",
+    "not_fully_aware"
+  ]
+}

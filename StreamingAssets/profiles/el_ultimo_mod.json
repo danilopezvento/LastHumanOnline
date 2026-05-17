@@ -1,0 +1,20 @@
+{
+  "username": "el_ultimo_mod",
+  "bio": "Moderador de NEXUS. Cuenta de servicio. Reporta contenido inapropiado usando /report.",
+  "narrativeArc": "deceptive",
+  "secretType": "lore",
+  "humanityScore": 0.39,
+  "dialogKnots": [
+    "moderator_intro",
+    "rule_enforcement",
+    "slip_into_panic",
+    "human_underneath",
+    "system_override"
+  ],
+  "responseKeys": [
+    "formal_language",
+    "calculated_response",
+    "occasional_break",
+    "meta_lore"
+  ]
+}

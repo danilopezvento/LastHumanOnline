@@ -1,0 +1,20 @@
+{
+  "username": "nnr_1987",
+  "bio": "...",
+  "narrativeArc": "deceptive",
+  "secretType": "lore",
+  "humanityScore": 0.78,
+  "dialogKnots": [
+    "silent_intro",
+    "one_word_answers",
+    "sudden_confession",
+    "lore_drop",
+    "disappears"
+  ],
+  "responseKeys": [
+    "very_slow_response",
+    "minimal_text",
+    "unexpected_detail",
+    "refuses_location"
+  ]
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "evt_rosa_appears",
+    "type": "profile_appears",
+    "requireAct": 2,
+    "requireHumans": 1,
+    "requireDay": 8,
+    "title": "Alguien responde a Luca",
+    "description": "El perfil que Luca busca aparece en NEXUS. Pero algo en sus respuestas no cuadra con lo que él describió.",
+    "triggerProfile": "rosa_m_real",
+    "isKeyEvent": true,
+    "warning": "Posible trampa — verificar antes de compartir ubicación"
+  },
+  {
+    "id": "evt_dr_eirene",
+    "type": "profile_appears",
+    "requireAct": 2,
+    "requireHumans": 2,
+    "requireDay": 10,
+    "title": "La científica",
+    "description": "Un perfil con vocabulario técnico específico afirma saber qué causó el evento. Pide verificación antes de hablar.",
+    "triggerProfile": "dr_eirene_sol",
+    "isKeyEvent": true
+  },
+  {
+    "id": "evt_admin_message",
+    "type": "radio_signal",
+    "requireAct": 2,
+    "requireHumans": 2,
+    "requireDay": 11,
+    "title": "Mensaje del administrador",
+    "description": "Un perfil con privilegios de sistema envía un mensaje directo. Usa lenguaje que ningún bot debería conocer.",
+    "triggerProfile": "admin_silencioso",
+    "payload": "Te estoy observando desde el día uno. Sé lo que hiciste con K. Necesitamos hablar."
+  },
+  {
+    "id": "evt_marta_sos",
+    "type": "profile_appears",
+    "requireAct": 2,
+    "requireHumans": 1,
+    "requireDay": 12,
+    "title": "SOS médico",
+    "description": "Un perfil con conocimientos de enfermería responde a un post antiguo. Lleva días intentando contactar.",
+    "triggerProfile": "marta_v_offline"
+  },
+  {
+    "id": "evt_frequency_change",
+    "type": "radio_signal",
+    "requireAct": 2,
+    "requireHumans": 2,
+    "requireDay": 14,
+    "title": "La radio cambia de frecuencia",
+    "description": "La transmisión de 103.7 desaparece. Aparece una nueva en 88.5 con una voz diferente. ¿Es la misma persona?",
+    "frequency": "88.5",
+    "payload": "Cambié de frecuencia. Me encontraron en la anterior. Si me escuchas, no respondas todavía.",
+    "triggerProfile": "voz_en_la_radio"
+  },
+  {
+    "id": "evt_nexus_anomaly",
+    "type": "loot_hint",
+    "requireAct": 2,
+    "requireHumans": 0,
+    "requireDay": 15,
+    "title": "Anomalía en NEXUS",
+    "description": "El sistema registra una actividad inusual en un servidor específico. Podría haber datos importantes ahí.",
+    "lootType": "data_cache",
+    "location": "tech_district_server_room",
+    "payload": "Archivo recuperado: log_sistema_dia3.txt"
+  },
+  {
+    "id": "evt_nnr_speaks",
+    "type": "profile_appears",
+    "requireAct": 2,
+    "requireHumans": 3,
+    "requireDay": 16,
+    "title": "El silencioso habla",
+    "description": "Un perfil que lleva semanas respondiendo con puntos suspensivos envía su primer mensaje real. Corto. Perturbador.",
+    "triggerProfile": "nnr_1987",
+    "payload": "Lo del día uno no fue un accidente. Ellos sabían.",
+    "isKeyEvent": true
+  },
+  {
+    "id": "evt_bot_learns",
+    "type": "rumor",
+    "requireAct": 2,
+    "requireHumans": 0,
+    "requireDay": 18,
+    "title": "Un bot aprende",
+    "description": "Un perfil que clasificaste como bot empieza a responder de forma diferente. Menciona conversaciones anteriores con precisión.",
+    "triggerProfile": "echo_mirror_bot",
+    "warning": "Posible reclasificación necesaria"
+  }
+]

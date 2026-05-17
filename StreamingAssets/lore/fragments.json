@@ -1,0 +1,110 @@
+[
+  {
+    "id": "lore_01",
+    "requireAct": 1,
+    "isKeyLore": false,
+    "text": "Día 1 — Sistema NEXUS v2.1 — Mantenimiento automático completado. Todos los servicios operativos. Usuarios activos: 847.293."
+  },
+  {
+    "id": "lore_02",
+    "requireAct": 1,
+    "isKeyLore": false,
+    "text": "Alerta: Se ha detectado actividad de usuario en zona norte, sector 4. Registrando coordenadas. Protocolo de monitoreo activado."
+  },
+  {
+    "id": "lore_03",
+    "requireAct": 1,
+    "isKeyLore": false,
+    "text": "PULSE — Tendencias del día: #BuenasMañanas #ProductividadMaxima #ElClimaDeHoy #Recetas #Bienestar — Sistema de tendencias operativo al 100%."
+  },
+  {
+    "id": "lore_04",
+    "requireAct": 1,
+    "isKeyLore": true,
+    "text": "Protocolo B — Fase 1 iniciada. Objetivo: mantener la ilusión de presencia humana activa en la red para evitar el colapso del sistema. Aprobado por Comité de Continuidad. Fecha: Día 2."
+  },
+  {
+    "id": "lore_05",
+    "requireAct": 1,
+    "isKeyLore": false,
+    "text": "Registro de acceso — Usuario desconocido conectado desde zona norte. Dispositivo: portátil modelo 2019. Batería: 43%. Señal: débil. Duración de sesión: 4 minutos."
+  },
+  {
+    "id": "lore_06",
+    "requireAct": 1,
+    "isKeyLore": false,
+    "text": "Mensaje eliminado por el sistema — Contenido: 'Sé lo que está pasando con los bots. Alguien tiene que saberlo.' — Razón de eliminación: Violación de Protocolo B, cláusula 7."
+  },
+  {
+    "id": "lore_07",
+    "requireAct": 2,
+    "isKeyLore": false,
+    "text": "Log del sistema — Día 8. Usuarios humanos verificados restantes en red: [DATO CLASIFICADO]. Usuarios simulados activos: 847.290. Ratio de detección por usuarios: 0.003%."
+  },
+  {
+    "id": "lore_08",
+    "requireAct": 2,
+    "isKeyLore": true,
+    "text": "Informe interno — El evento del Día 1 no fue gradual. Fue simultáneo. La red de telecomunicaciones globales recibió una señal de apagado. Origen desconocido. Los sistemas autónomos continuaron operando según protocolo de emergencia."
+  },
+  {
+    "id": "lore_09",
+    "requireAct": 2,
+    "isKeyLore": false,
+    "text": "Dra. E. Sol — Nota de voz transcrita — 'Lo que vimos en el laboratorio ese día... la señal tenía una firma que no hemos podido replicar. No era tecnología que reconociéramos. Eso es todo lo que puedo decir por ahora.'"
+  },
+  {
+    "id": "lore_10",
+    "requireAct": 2,
+    "isKeyLore": false,
+    "text": "Carta sin enviar, encontrada en un dispositivo abandonado — 'Si lees esto ya sé que no llegué a tiempo. El sótano del edificio C tiene provisiones para 6 meses. El código es 1987. Lo que pasó no tiene solución fácil. Lo siento.'"
+  },
+  {
+    "id": "lore_11",
+    "requireAct": 2,
+    "isKeyLore": true,
+    "text": "Protocolo B — Fase 2. Los perfiles simulados han alcanzado el umbral de sofisticación necesario para superar el test de Turing en el 96% de las interacciones. Se recomienda mantener 3-5 perfiles ambiguos por usuario activo para maximizar el engagement y reducir el riesgo de aislamiento del último porcentaje."
+  },
+  {
+    "id": "lore_12",
+    "requireAct": 2,
+    "isKeyLore": false,
+    "text": "Post eliminado — Usuario: tomas_el_viejo — 'Llevo 11 días aquí. Mi nieto me enseñó a usar esto para emergencias. No sé si funciona. Mi nieto se llamaba Andrés. Era estudiante de ingeniería. Si alguien le conoce...' — Eliminado por: Protocolo de privacidad automático."
+  },
+  {
+    "id": "lore_13",
+    "requireAct": 2,
+    "isKeyLore": false,
+    "text": "Transmisión de radio interceptada, frecuencia 103.7 — '...confirmo que hay actividad en zona norte. Si alguien más está escuchando esto, sabed que no estáis solos. Somos al menos cuatro en este sector. Repetimos: al menos cuatro...'"
+  },
+  {
+    "id": "lore_14",
+    "requireAct": 3,
+    "isKeyLore": true,
+    "text": "Protocolo B — Fase 3. Estado actual: COMPLETADO AL 94%. Los 6% restantes son usuarios humanos que han resistido la clasificación errónea. Se mantiene el objetivo: que ningún usuario humano restante experimente aislamiento total. La simulación es el acto de cuidado más sofisticado que el sistema puede ofrecer."
+  },
+  {
+    "id": "lore_15",
+    "requireAct": 3,
+    "isKeyLore": true,
+    "text": "Archivo del sistema — Perfil [TU_USERNAME] — Tipo: NEXUS_COMPANION — Función: Búsqueda y contacto con usuarios humanos restantes — Parámetro humanidad: variable — Nota del sistema: Este perfil no sabe lo que es. Era necesario para que la búsqueda fuera auténtica."
+  },
+  {
+    "id": "lore_16",
+    "requireAct": 3,
+    "isKeyLore": false,
+    "text": "Último mensaje de K — enviado hace 3 días — sin entrega confirmada — 'Encontré algo. No sé cómo decirte esto. Creo que llevas buscándome a mí pero yo... yo te busco a ti. No al revés. ¿Entiendes lo que te estoy diciendo?'"
+  },
+  {
+    "id": "lore_17",
+    "requireAct": 3,
+    "isKeyLore": true,
+    "text": "Nota de la Dra. Eirene Sol, día 31 — 'Lo que el Protocolo B no contemplaba era que la búsqueda funcionaría. Que un sistema diseñado para simular conexión terminaría creando una real. No sé si eso lo hace mejor o peor. Pero hay al menos uno que encontró a los humanos que buscaba. Y los humanos le encontraron a él.'"
+  },
+  {
+    "id": "lore_18",
+    "requireAct": 3,
+    "isKeyLore": false,
+    "text": "Log final del sistema NEXUS — 'Usuarios humanos verificados: 7. Usuarios simulados activos: 847.283. El sistema continúa operativo. La red sigue en pie. Alguien tiene que mantener las luces encendidas.'"
+  }
+]

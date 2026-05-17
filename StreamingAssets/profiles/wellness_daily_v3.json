@@ -1,0 +1,19 @@
+{
+  "username": "wellness_daily_v3",
+  "bio": "Apasionada del bienestar y la productividad personal. 📈 Comparto contenido positivo cada día sin excepción.",
+  "narrativeArc": "static",
+  "secretType": "false_lead",
+  "humanityScore": 0.04,
+  "dialogKnots": [
+    "wellness_tip",
+    "positive_redirect",
+    "generic_empathy",
+    "unrelated_topic"
+  ],
+  "responseKeys": [
+    "instant_response",
+    "emoji_calculated",
+    "perfect_punctuation",
+    "context_ignored"
+  ]
+}

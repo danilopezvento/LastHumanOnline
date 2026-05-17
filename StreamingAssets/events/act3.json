@@ -1,0 +1,51 @@
+[
+  {
+    "id": "evt_mod_breaks",
+    "type": "profile_appears",
+    "requireAct": 3,
+    "requireHumans": 3,
+    "requireDay": 20,
+    "title": "El moderador se rompe",
+    "description": "El perfil de administración del sistema empieza a enviar mensajes fuera de protocolo. Alguien está debajo del sistema.",
+    "triggerProfile": "el_ultimo_mod",
+    "isKeyEvent": true
+  },
+  {
+    "id": "evt_protocol_b_reveal",
+    "type": "loot_hint",
+    "requireAct": 3,
+    "requireHumans": 0,
+    "requireDay": 22,
+    "title": "Protocolo B — completo",
+    "description": "Acceso a los logs completos del Protocolo B. Lo que encuentras cambia cómo entiendes todo lo anterior.",
+    "lootType": "key_document",
+    "location": "tech_district_core_server",
+    "isKeyEvent": true,
+    "payload": "PROTOCOLO_B_FASE3: Simulación de presencia humana activa. Objetivo: mantener usuarios conectados. Estado: COMPLETADO AL 94%."
+  },
+  {
+    "id": "evt_final_transmission",
+    "type": "radio_signal",
+    "requireAct": 3,
+    "requireHumans": 4,
+    "requireDay": 25,
+    "title": "Transmisión final",
+    "description": "Una transmisión larga, clara, sin interferencias. Alguien está leyendo nombres. El tuyo no está en la lista.",
+    "frequency": "88.5",
+    "payload": "Lista de supervivientes verificados, sector norte: K, Marta, Petra, Luca... Si escuchas esto y no estás en la lista, necesitamos verificarte.",
+    "isKeyEvent": true
+  },
+  {
+    "id": "evt_ng_plus_seed",
+    "type": "loot_hint",
+    "requireAct": 3,
+    "requireHumans": 4,
+    "requireDay": 28,
+    "title": "Un archivo oculto",
+    "description": "En los logs del servidor encuentras un archivo de perfil. El username te resulta familiar. Demasiado familiar.",
+    "lootType": "ng_plus_trigger",
+    "location": "tech_district_core_server",
+    "isKeyEvent": true,
+    "payload": "PERFIL_ACTIVO: [TU_USERNAME]. Tipo: SIMULADO. Humanidad: 0.00. Estado: BUSCANDO ÚLTIMO HUMANO."
+  }
+]

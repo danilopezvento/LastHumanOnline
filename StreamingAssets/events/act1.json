@@ -1,0 +1,91 @@
+[
+  {
+    "id": "evt_first_signal",
+    "type": "radio_signal",
+    "requireAct": 1,
+    "requireHumans": 0,
+    "requireDay": 0,
+    "title": "Primera señal",
+    "description": "Una transmisión de radio débil. Alguien habla, pero las palabras se pierden en la estática.",
+    "frequency": "103.7",
+    "payload": "...aquí... ¿hay alguien? Repito... frecuencia... no sé si esto llega...",
+    "triggerProfile": "voz_en_la_radio"
+  },
+  {
+    "id": "evt_market_rumor",
+    "type": "rumor",
+    "requireAct": 1,
+    "requireHumans": 0,
+    "requireDay": 1,
+    "title": "Rumor del mercado",
+    "description": "Un post en PULSE menciona un punto de intercambio en el mercado central. Podría ser real o una trampa.",
+    "payload": "Zona sur. Mercado central. Planta baja. Hay comida y agua. Venid con cuidado.",
+    "isReal": false,
+    "triggerProfile": "market_update_443"
+  },
+  {
+    "id": "evt_luca_search",
+    "type": "profile_appears",
+    "requireAct": 1,
+    "requireHumans": 0,
+    "requireDay": 2,
+    "title": "Alguien busca a alguien",
+    "description": "Un perfil lleva horas publicando el mismo mensaje. Busca a su hermana.",
+    "triggerProfile": "ghost_luca"
+  },
+  {
+    "id": "evt_protocol_b",
+    "type": "loot_hint",
+    "requireAct": 1,
+    "requireHumans": 0,
+    "requireDay": 3,
+    "title": "Protocolo B activo",
+    "description": "El sistema NEXUS registra automáticamente tu actividad. Un mensaje inesperado revela más de lo que debería.",
+    "triggerProfile": "protocolo_b_activo",
+    "lootType": "device",
+    "location": "distrito_7_bloque_c"
+  },
+  {
+    "id": "evt_first_human_contact",
+    "type": "profile_appears",
+    "requireAct": 1,
+    "requireHumans": 0,
+    "requireDay": 4,
+    "title": "Contacto K",
+    "description": "Un perfil que lleva activo desde el inicio responde a tu último post. El delay de su respuesta es inusual para un bot.",
+    "triggerProfile": "k_real_2024",
+    "isKeyEvent": true
+  },
+  {
+    "id": "evt_petra_generator",
+    "type": "loot_hint",
+    "requireAct": 1,
+    "requireHumans": 1,
+    "requireDay": 5,
+    "title": "Señal de generador",
+    "description": "Una fuente de energía estable en algún punto de la ciudad. El perfil que la menciona exige verificación.",
+    "triggerProfile": "petra_signal",
+    "lootType": "battery_charge_station"
+  },
+  {
+    "id": "evt_bot_flood",
+    "type": "rumor",
+    "requireAct": 1,
+    "requireHumans": 0,
+    "requireDay": 6,
+    "title": "El feed se llena",
+    "description": "El feed de PULSE se inunda de posts idénticos con pequeñas variaciones. Algo está generando contenido masivamente.",
+    "payload": "AVISO: Zona segura establecida en [COORDENADAS PENDIENTES]. Acudir antes de las 18:00.",
+    "isReal": false
+  },
+  {
+    "id": "evt_old_man_memory",
+    "type": "profile_appears",
+    "requireAct": 1,
+    "requireHumans": 1,
+    "requireDay": 7,
+    "title": "El viejo",
+    "description": "Un perfil con actividad desde el día uno. Respuestas lentas, confusas, pero con detalles imposibles de fabricar.",
+    "triggerProfile": "tomas_el_viejo"
+  }
+]

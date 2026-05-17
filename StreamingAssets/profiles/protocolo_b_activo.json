@@ -1,0 +1,19 @@
+{
+  "username": "protocolo_b_activo",
+  "bio": "Protocolo B — Fase 3. Indexación de usuarios activos en curso. Bienvenido al sistema.",
+  "narrativeArc": "static",
+  "secretType": "lore",
+  "humanityScore": 0.0,
+  "dialogKnots": [
+    "protocol_intro",
+    "scan_response",
+    "data_collection",
+    "lore_accidental"
+  ],
+  "responseKeys": [
+    "machine_language",
+    "instant_response",
+    "categorizes_user",
+    "reveals_system_info"
+  ]
+}

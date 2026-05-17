@@ -1,0 +1,19 @@
+{
+  "username": "market_update_443",
+  "bio": "Actualizaciones en tiempo real. Mercado de suministros. Ofertas del día. Conecta con vendedores verificados.",
+  "narrativeArc": "static",
+  "secretType": "false_lead",
+  "humanityScore": 0.03,
+  "dialogKnots": [
+    "market_ad",
+    "fake_offer",
+    "trap_location",
+    "no_follow_through"
+  ],
+  "responseKeys": [
+    "instant_response",
+    "commercial_tone",
+    "fake_scarcity",
+    "no_emotional_context"
+  ]
+}

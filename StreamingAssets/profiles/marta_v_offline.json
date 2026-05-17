@@ -1,0 +1,20 @@
+{
+  "username": "marta_v_offline",
+  "bio": "Enfermera. O lo era. Bloque 7, cuarta planta. Tengo medicamentos y agua. No tengo miedo de compartir si sé que eres real.",
+  "narrativeArc": "evolving",
+  "secretType": "contact",
+  "humanityScore": 0.92,
+  "dialogKnots": [
+    "intro_cautious",
+    "medical_check",
+    "share_location",
+    "ask_symptoms",
+    "trust_earned"
+  ],
+  "responseKeys": [
+    "slow_response",
+    "professional_vocab",
+    "emotional_warmth",
+    "inconsistent_mood"
+  ]
+}

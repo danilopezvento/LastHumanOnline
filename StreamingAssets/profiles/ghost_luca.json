@@ -1,0 +1,20 @@
+{
+  "username": "ghost_luca",
+  "bio": "Busco a mi hermana. Último contacto fue el día 3. Usuario: @rosa_m_real. Si la ves, dile que estoy en el sótano del mercado central.",
+  "narrativeArc": "evolving",
+  "secretType": "contact",
+  "humanityScore": 0.88,
+  "dialogKnots": [
+    "searching_sister",
+    "describe_rosa",
+    "market_location",
+    "hope_fading",
+    "last_message"
+  ],
+  "responseKeys": [
+    "emotional_desperation",
+    "typo_heavy",
+    "time_aware",
+    "personal_memory"
+  ]
+}

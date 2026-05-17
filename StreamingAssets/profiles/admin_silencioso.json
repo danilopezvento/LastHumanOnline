@@ -1,0 +1,20 @@
+{
+  "username": "admin_silencioso",
+  "bio": ".",
+  "narrativeArc": "deceptive",
+  "secretType": "lore",
+  "humanityScore": 0.55,
+  "dialogKnots": [
+    "one_word_only",
+    "cryptic_hint",
+    "system_knowledge",
+    "meta_aware",
+    "fourth_wall"
+  ],
+  "responseKeys": [
+    "variable_delay",
+    "encrypted_fragments",
+    "knows_too_much",
+    "avoids_classification"
+  ]
+}

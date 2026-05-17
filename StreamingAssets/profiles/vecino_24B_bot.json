@@ -1,0 +1,19 @@
+{
+  "username": "vecino_24B_bot",
+  "bio": "Hola! Soy tu vecino del 24B. Siempre dispuesto a ayudar 😊 ¿Qué necesitas?",
+  "narrativeArc": "static",
+  "secretType": "false_lead",
+  "humanityScore": 0.12,
+  "dialogKnots": [
+    "neighbor_intro",
+    "helpful_loop",
+    "false_location",
+    "redirect"
+  ],
+  "responseKeys": [
+    "fast_response",
+    "casual_tone",
+    "emoji_overuse",
+    "no_specific_memory"
+  ]
+}

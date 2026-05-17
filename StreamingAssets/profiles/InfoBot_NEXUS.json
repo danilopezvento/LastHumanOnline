@@ -1,0 +1,19 @@
+{
+  "username": "InfoBot_NEXUS",
+  "bio": "Canal oficial de información y actualizaciones de NEXUS. Activo 24/7. Respuesta garantizada en menos de 1 segundo.",
+  "narrativeArc": "static",
+  "secretType": "false_lead",
+  "humanityScore": 0.02,
+  "dialogKnots": [
+    "generic_info",
+    "redirect_loop",
+    "false_emergency",
+    "reset"
+  ],
+  "responseKeys": [
+    "instant_response",
+    "perfect_syntax",
+    "no_emotion",
+    "topic_shift"
+  ]
+}

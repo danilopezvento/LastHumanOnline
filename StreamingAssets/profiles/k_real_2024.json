@@ -1,0 +1,20 @@
+{
+  "username": "k_real_2024",
+  "bio": "Sigo aquí. Zona norte. Si lees esto y eres humano, respóndeme antes de las 23h. Después apago el dispositivo para ahorrar batería.",
+  "narrativeArc": "evolving",
+  "secretType": "coord",
+  "humanityScore": 0.85,
+  "dialogKnots": [
+    "intro",
+    "trust_test",
+    "location_reveal",
+    "betrayal_fear",
+    "final_plea"
+  ],
+  "responseKeys": [
+    "delayed_response",
+    "typo_present",
+    "emotional_fear",
+    "circadian_aware"
+  ]
+}
