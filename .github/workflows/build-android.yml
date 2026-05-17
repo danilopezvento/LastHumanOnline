@@ -1,4 +1,4 @@
-name: Build Last Human Online APK
+﻿name: Build Last Human Online APK
 
 on:
   push:
